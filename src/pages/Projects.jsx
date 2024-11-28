@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="card">
           <ReactPlayer
             className="react-player"
-            url="../../public/rickroll.mkv"
+            url="../../rickroll.mkv"
             controls={true}
             volume={0}
           />
@@ -65,7 +65,7 @@ const Projects = () => {
           </p>
           <ReactPlayer
             className="react-player"
-            url="../../public/rickroll.mkv"
+            url="../../rickroll.mkv"
             controls={true}
             volume={0}
           />
@@ -76,7 +76,7 @@ const Projects = () => {
         <div className="card">
           <ReactPlayer
             className="react-player"
-            url="../../public/rickroll.mkv"
+            url="../../rickroll.mkv"
             controls={true}
             volume={0}
           />

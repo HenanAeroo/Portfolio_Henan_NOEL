@@ -8,13 +8,21 @@ import HorizontalBar from "../components/HorizontalBar"
 import SocialBadge from "../components/SocialBadge"
 import MapComponent from "../components/MapComponent"
 import ScrollToTop from "../components/ScrollToTop"
+// @ts-ignore
+import Pdp from "../assets/img/pdp.jpg"
+// @ts-ignore
+import Challenge from "../assets/img/Challenge72.png"
+// @ts-ignore
+import Infra from "../assets/img/Projet_Infra.png"
+// @ts-ignore
+import SalutChef from "../assets/img/Logo_Salut_Chef.png"
 
 function Home() {
   return (
     <div>
       <Header />
       <div className="landingPage">
-        <img src="../../public/pdp.JPG" alt="Hénan Noël" className="pdp" />
+        <img src={Pdp} alt="Hénan Noël" className="pdp" />
         <div className="description">
           <h2 className="text-4xl font-bold">Hénan NOËL</h2>
           <p>Étudiant en Bachelor 2 Informatique <br />
@@ -44,7 +52,7 @@ function Home() {
             <SocialBadge platform="linkedin" link="https://www.linkedin.com/in/h%C3%A9nan-no%C3%ABl-0a2aa1198/" />
             <SocialBadge platform="github" link="https://github.com/HenanAeroo" />
             <SocialBadge platform="gitea" link="https://ytrack.learn.ynov.com/git/nhenan/" />
-            <SocialBadge platform="cv" link="../../public/CV_Henan_NOEL.pdf" />
+            <SocialBadge platform="cv" link="../assets/img/CV_Henan_NOEL.pdf" />
           </div>
         </div>
       </div>
@@ -77,7 +85,7 @@ function Home() {
           <div className="projectCard">
             <div className="max-w-sm rounded overflow-hidden">
               <img
-                src="../../public/Challenge72.png"
+                src={Challenge}
                 alt="Accueil de mon projet d'infrastructure"
                 className="w-full h-[250px]"
               />
@@ -90,7 +98,7 @@ function Home() {
           <div className="projectCard">
             <div className="max-w-sm rounded overflow-hidden">
               <img
-                src="../../public/Projet_Infra.png"
+                src={Infra}
                 alt="Accueil de mon projet d'infrastructure"
                 className="w-full h-[250px]"
               />
@@ -103,7 +111,7 @@ function Home() {
           <div className="projectCard">
             <div className="max-w-sm rounded overflow-hidden">
               <img
-                src="../../public/Logo_Salut_Chef.png"
+                src={SalutChef}
                 alt="Salut Chef !"
                 className="w-full h-[250px]"
               />
