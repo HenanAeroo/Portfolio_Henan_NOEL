@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
-import ReactPlayer from "react-player";
+import ReactPlayer from 'react-player/lazy'
 import '../index.css';
 import ScrollToTop from "../components/ScrollToTop";
 
