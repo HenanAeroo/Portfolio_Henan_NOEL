@@ -15,6 +15,10 @@ const Contact = () => {
   return (
     <div className="contactPage">
       <Header />
+      <h2 className="mt-8 text-3xl font-extrabold text-gray-900 md:text-3xl lg:text-3xl text-center">
+        Page en cours de développement
+      </h2>
+
       <section className="contact">
         <form onSubmit={handleSubmit} className="space-y-8">
           <h2 className="mb-4 text-3xl tracking-tight font-bold text-center">Contactez moi</h2>
