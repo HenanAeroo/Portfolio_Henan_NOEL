@@ -20,11 +20,17 @@ const Contact = () => {
       </h2>
 
       <section className="contact">
-        <form onSubmit={handleSubmit} className="space-y-8">
+        <form
+          name="contact"
+          method='POST'
+          data-netlify="true"
+          onSubmit={handleSubmit}
+          className="space-y-8">
           <h2 className="mb-4 text-3xl tracking-tight font-bold text-center">Contactez moi</h2>
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium">Votre email :</label>
             <input
+              name='email'
               type="email"
               id="email"
               value={email}
@@ -37,6 +43,7 @@ const Contact = () => {
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block mb-2 text-sm font-medium">Votre message :</label>
             <textarea
+              name='message'
               id="message"
               value={message}
               onChange={handleMessageChange}
