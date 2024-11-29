@@ -26,16 +26,16 @@ export const useContactForm = () => {
 
       if (result.success) {
         // @ts-ignore
-        setStatus({ success: true, message: result.message }); // Succès
-        setEmail(""); // Réinitialise l'email
-        setMessage(""); // Réinitialise le message
+        setStatus({ success: true, message: result.message });
+        setEmail("");
+        setMessage("");
       } else {
         // @ts-ignore
-        setStatus({ success: false, message: result.message }); // Erreur côté serveur
+        setStatus({ success: false, message: result.message });
       }
     } catch (error) {
       // @ts-ignore
-      setStatus({ success: false, message: "Une erreur réseau est survenue." }); // Erreur réseau
+      setStatus({ success: false, message: "Une erreur réseau est survenue." });
     }
   };
 

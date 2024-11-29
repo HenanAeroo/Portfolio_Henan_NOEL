@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import "../index.css";
-import Header from "../layouts/Header";
-import { useContactForm } from "../assets/js/contactLogic.js";
+import Header from '../layouts/Header';
+import { useContactForm } from '../assets/js/contactLogic';
 
 const Contact = () => {
   const {
@@ -10,7 +10,6 @@ const Contact = () => {
     handleEmailChange,
     handleMessageChange,
     handleSubmit,
-    status,
   } = useContactForm();
 
   return (
@@ -47,23 +46,12 @@ const Contact = () => {
             <button
               id="send"
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+              className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             >
               Envoyer le message
             </button>
           </div>
         </form>
-        {status && (
-          <div
-            // @ts-ignore
-            className={`mt-4 text-center text-sm ${status.success ? "text-green-500" : "text-red-500"
-              }`}
-          >
-            {status.
-              // @ts-ignore
-              message}
-          </div>
-        )}
       </section>
     </div>
   );
