@@ -291,7 +291,7 @@ form button:hover {
 .infra .card,
 .salutchef .card {
   display: flex;
-  flex-direction: row; /* Vidéos et textes côte à côte */
+  flex-direction: row;
   align-items: center;
   padding-inline: 1em;
   padding-block: 1em;
@@ -365,6 +365,7 @@ footer {
 
   .projectsElem {
     flex-direction: column;
+    align-items: center;
     gap: 1.5em;
   }
 

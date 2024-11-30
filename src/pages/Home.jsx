@@ -1,21 +1,21 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import '../index.css'
-import Header from "../layouts/Header"
-import Footer from "../layouts/Footer"
-import VerticalBar from "../components/VerticalBar"
-import HorizontalBar from "../components/HorizontalBar"
-import SocialBadge from "../components/SocialBadge"
-import MapComponent from "../components/MapComponent"
-import ScrollToTop from "../components/ScrollToTop"
+import React from "react";
+import { Link } from "react-router-dom";
+import "../index.css";
+import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
+import VerticalBar from "../components/VerticalBar";
+import HorizontalBar from "../components/HorizontalBar";
+import SocialBadge from "../components/SocialBadge";
+import MapComponent from "../components/MapComponent";
+import ScrollToTop from "../components/ScrollToTop";
 // @ts-ignore
-import Pdp from "../assets/img/pdp.jpg"
+import Pdp from "../assets/img/pdp.webp";
 // @ts-ignore
-import Challenge from "../assets/img/Challenge72.png"
+import Challenge from "../assets/img/Challenge72.webp";
 // @ts-ignore
-import Infra from "../assets/img/Projet_Infra.png"
+import Infra from "../assets/img/Projet_Infra.webp";
 // @ts-ignore
-import SalutChef from "../assets/img/Logo_Salut_Chef.png"
+import SalutChef from "../assets/img/Logo_Salut_Chef.webp";
 
 function Home() {
   return (
@@ -25,8 +25,10 @@ function Home() {
         <img src={Pdp} alt="Hénan Noël" className="pdp" />
         <div className="description">
           <h2 className="text-4xl font-bold">Hénan NOËL</h2>
-          <p>Étudiant en Bachelor 2 Informatique <br />
-            Recherche de stage développeur fullstack</p>
+          <p>
+            Étudiant en Bachelor 2 Informatique <br />
+            Recherche de stage développeur fullstack
+          </p>
         </div>
       </div>
 
@@ -40,18 +42,29 @@ function Home() {
         </h2>
 
         <div className="aboutElem">
-          <p>Ayant repris les études depuis septembre 2023, je suis fort
+          <p>
+            Ayant repris les études depuis septembre 2023, je suis fort
             d'expériences professionnelles précédentes. J'ai été formé dans le
-            milieu de l'hôtellerie-restauration, ce qui m'a permis d'acquérir des
-            compétences en communication, organisation et gestion des tâches.
+            milieu de l'hôtellerie-restauration, ce qui m'a permis d'acquérir
+            des compétences en communication, organisation et gestion des
+            tâches.
           </p>
         </div>
 
         <div className="badges">
           <div className="flex flex-wrap gap-4">
-            <SocialBadge platform="linkedin" link="https://www.linkedin.com/in/h%C3%A9nan-no%C3%ABl-0a2aa1198/" />
-            <SocialBadge platform="github" link="https://github.com/HenanAeroo" />
-            <SocialBadge platform="gitea" link="https://ytrack.learn.ynov.com/git/nhenan/" />
+            <SocialBadge
+              platform="linkedin"
+              link="https://www.linkedin.com/in/h%C3%A9nan-no%C3%ABl-0a2aa1198/"
+            />
+            <SocialBadge
+              platform="github"
+              link="https://github.com/HenanAeroo"
+            />
+            <SocialBadge
+              platform="gitea"
+              link="https://ytrack.learn.ynov.com/git/nhenan/"
+            />
             <SocialBadge platform="cv" link="../assets/img/CV_Henan_NOEL.pdf" />
           </div>
         </div>
@@ -66,9 +79,18 @@ function Home() {
           </span>
         </h2>
         <div className="imgLanguages">
-          <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Logo de Java" />
-          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="Logo de React" />
-          <img src="https://www.vectorlogo.zone/logos/golang/golang-ar21.svg" alt="Logo de Golang" />
+          <img
+            src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"
+            alt="Logo de Java"
+          />
+          <img
+            src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+            alt="Logo de React"
+          />
+          <img
+            src="https://www.vectorlogo.zone/logos/golang/golang-ar21.svg"
+            alt="Logo de Golang"
+          />
         </div>
       </div>
 
@@ -103,7 +125,9 @@ function Home() {
                 className="w-full h-[250px]"
               />
               <div className="px-6">
-                <p className="text-gray-700 text-base">Projet d'infrastructure</p>
+                <p className="text-gray-700 text-base">
+                  Projet d'infrastructure
+                </p>
               </div>
             </div>
           </div>
@@ -122,7 +146,6 @@ function Home() {
           </div>
         </div>
 
-
         <div className="flex justify-center">
           <button
             type="button"
@@ -135,7 +158,8 @@ function Home() {
             <Link
               to="/projects"
               onClick={() => window.scrollTo(0, 0)}
-              className="block text-center">
+              className="block text-center"
+            >
               En savoir <span className="block text-xl">+</span>
             </Link>
           </button>
@@ -172,19 +196,19 @@ function Home() {
                 <Link
                   to="/contact"
                   onClick={() => window.scrollTo(0, 0)}
-                  className="block text-center">
+                  className="block text-center"
+                >
                   Me <span className="block">contacter</span>
                 </Link>
               </button>
             </div>
           </p>
         </div>
-
       </div>
       <ScrollToTop />
       <Footer />
-    </div >
-  )
+    </div>
+  );
 }
 
-export default Home
+export default Home;
