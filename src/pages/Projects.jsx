@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
-import ReactPlayer from 'react-player/lazy'
-import '../index.css';
+import ReactPlayer from "react-player/lazy";
+import "../index.css";
 import ScrollToTop from "../components/ScrollToTop";
 
 const Projects = () => {
@@ -25,12 +25,14 @@ const Projects = () => {
             volume={0}
           />
           <p>
-            Le <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
+            Le{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               <b>projet Ynov x Les Trans Musicales</b>
-            </span> a été un réel défi. Un défi
-            à réaliser en 72h, dans lequel il fallait permettre aux organisateurs des
-            Trans Musicales de répondre à une problématique : Comment impliquer
-            la génération Z lors de la prochaine édition de son festival ?
+            </span>{" "}
+            a été un réel défi. Un défi à réaliser en 72h, dans lequel il
+            fallait permettre aux organisateurs des Trans Musicales de répondre
+            à une problématique : Comment impliquer la génération Z lors de la
+            prochaine édition de son festival ?
             <br />
             <br />
             <b>72h pour y répondre.</b> Un vrai défi que mon équipe et moi avons
@@ -42,8 +44,10 @@ const Projects = () => {
             nouvelles fonctionnalités une fois sur le site ou le festival.
             <br />
             <br />
-            <i>Cette prise de risque nous a valu le prix coup de coeur du jury à la
-              fin du challenge.</i>
+            <i>
+              Cette prise de risque nous a valu le prix coup de coeur du jury à
+              la fin du challenge.
+            </i>
           </p>
         </div>
       </div>
@@ -51,17 +55,19 @@ const Projects = () => {
       <div className="infra">
         <div className="card">
           <p>
-            Mon <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
+            Mon{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               <b>projet infrastructure</b>
-            </span> m'a permis de réaliser 2 choses : une base
-            de données complètement fonctionnelle, et une application web
-            permettant de créer des fiches de notation sur des jeux vidéos, d'en
-            modifier le contenu, d'afficher ces fiches ou de les supprimer.
+            </span>{" "}
+            m'a permis de réaliser 2 choses : une base de données complètement
+            fonctionnelle, et une application web permettant de créer des fiches
+            de notation sur des jeux vidéos, d'en modifier le contenu,
+            d'afficher ces fiches ou de les supprimer.
             <br />
             <br />
             Pour cela, j'ai utilisé une base de données MySQL, un serveur Apache
-            via XAMPP pour gérer l'affichage du site web, et un serveur PHP
-            pour la partie back-end.
+            via XAMPP pour gérer l'affichage du site web, et un serveur PHP pour
+            la partie back-end.
           </p>
           <ReactPlayer
             className="react-player"
@@ -83,8 +89,9 @@ const Projects = () => {
           <p>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               <b>Salut Chef !</b>
-            </span> est une association que j'ai créée en mars 2024. Son
-            objectif principal est de sensibiliser les étudiants au "mieux manger".
+            </span>{" "}
+            est une association que j'ai créée en mars 2024. Son objectif
+            principal est de sensibiliser les étudiants au "mieux manger".
             <br />
             <br />
             Son intérêt pour moi ?
@@ -100,7 +107,7 @@ const Projects = () => {
       <ScrollToTop />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

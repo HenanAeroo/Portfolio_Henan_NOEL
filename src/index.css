@@ -29,6 +29,7 @@ html {
 
 /* ===== Header ===== */
 header {
+  width: 100%;
   background-color: var(--bgColor);
 }
 
@@ -228,6 +229,15 @@ form button:hover {
 }
 
 /* ===== Page Projets ===== */
+.projectsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: 100vh;
+}
+
 .projectsPage h1 {
   text-align: center;
   margin-top: 1.5em;
@@ -237,9 +247,10 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 2em;
-  margin-inline: 3em auto;
-  width: 90%;
+  margin-inline: auto;
+  width: 100%;
   max-width: 1200px;
 }
 
@@ -267,57 +278,31 @@ form button:hover {
   padding: 0;
 }
 
+.challenge,
+.infra,
+.salutchef {
+  display: flex;
+  justify-content: center;
+  margin: 3em auto;
+  width: 100%;
+}
+
 .challenge .card,
 .infra .card,
 .salutchef .card {
-  flex-direction: row;
+  display: flex;
+  flex-direction: row; /* Vidéos et textes côte à côte */
+  align-items: center;
   padding-inline: 1em;
   padding-block: 1em;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
-}
-
-.challenge {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 3em;
-  margin-inline: 10%;
-}
-
-.challenge .card {
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
-}
-
-.infra {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 3em;
-  margin-inline: 10%;
-}
-
-.infra .card {
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
-}
-
-.salutchef {
-  display: flex;
-  justify-content: flex-end;
-  margin-block: 3em;
-  margin-inline: 10%;
-}
-
-.salutchef .card {
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
+  gap: 1.5em;
 }
 
 /* ===== Footer ===== */
 footer {
+  width: 100%;
   background-color: var(--bgColor);
 }
 

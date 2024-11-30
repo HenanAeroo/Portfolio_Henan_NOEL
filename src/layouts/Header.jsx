@@ -53,8 +53,9 @@ const Header = () => {
             </button>
           </div>
           <div
-            className={`${isMenuOpen ? "block" : "hidden"
-              } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+            className={`${
+              isMenuOpen ? "block" : "hidden"
+            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
@@ -62,10 +63,11 @@ const Header = () => {
                 <Link
                   to="/"
                   onClick={() => window.scrollTo(0, 0)}
-                  className={`block py-2 pr-4 pl-3 ${isActive("/")
-                    ? "text-white bg-primary-700"
-                    : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
-                    } rounded lg:bg-transparent lg:p-0`}
+                  className={`block py-2 pr-4 pl-3 ${
+                    isActive("/")
+                      ? "text-white bg-primary-700"
+                      : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
+                  } rounded lg:bg-transparent lg:p-0`}
                 >
                   Accueil
                 </Link>
@@ -74,10 +76,11 @@ const Header = () => {
                 <Link
                   to="/projects"
                   onClick={() => window.scrollTo(0, 0)}
-                  className={`block py-2 pr-4 pl-3 ${isActive("/projects")
-                    ? "text-white bg-primary-700"
-                    : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
-                    } rounded lg:bg-transparent lg:p-0`}
+                  className={`block py-2 pr-4 pl-3 ${
+                    isActive("/projects")
+                      ? "text-white bg-primary-700"
+                      : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
+                  } rounded lg:bg-transparent lg:p-0`}
                 >
                   Projets
                 </Link>
@@ -86,10 +89,11 @@ const Header = () => {
                 <Link
                   to="/contact"
                   onClick={() => window.scrollTo(0, 0)}
-                  className={`block py-2 pr-4 pl-3 ${isActive("/contact")
-                    ? "text-white bg-primary-700"
-                    : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
-                    } rounded lg:bg-transparent lg:p-0`}
+                  className={`block py-2 pr-4 pl-3 ${
+                    isActive("/contact")
+                      ? "text-white bg-primary-700"
+                      : "text-dark hover:text-white transition-colors duration-200 ease-in-out"
+                  } rounded lg:bg-transparent lg:p-0`}
                 >
                   Contact
                 </Link>
