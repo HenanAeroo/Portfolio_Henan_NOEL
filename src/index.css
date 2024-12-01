@@ -300,6 +300,64 @@ form button:hover {
   gap: 1.5em;
 }
 
+/* Maintenance Page */
+/* Styles généraux */
+.maintenancePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Titre */
+.maintenanceTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Message */
+.maintenanceMessage {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Animation de chargement */
+.loadingAnimation {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: #191715;
+  border-radius: 50%;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
 /* ===== Footer ===== */
 footer {
   width: 100%;
