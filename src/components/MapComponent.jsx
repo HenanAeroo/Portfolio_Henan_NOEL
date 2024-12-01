@@ -6,7 +6,7 @@ const MapComponent = () => {
   const apiKey = "AIzaSyDtReNYj9XL_kHQZ0YVpIRmwrR6eZ_aANk";
 
   const containerStyle = {
-    width: "100%",
+    width: "600px",
     height: "400px",
   };
 

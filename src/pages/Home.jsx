@@ -179,9 +179,14 @@ function Home() {
           <MapComponent />
 
           <p>
-            Rennes Ynov Campus :
+            <b>Rennes Ynov Campus :</b>
             <br />
             42 Rue du Capitaine Maignan, 35000 Rennes
+            <br />
+            <br />
+            <b>Mon contact :</b>
+            <br />
+            henan.noel@gmail.com
             <br />
             <br />
             <div className="flex justify-center">
