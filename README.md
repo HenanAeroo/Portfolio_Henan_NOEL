@@ -38,6 +38,8 @@ Actuellement, la page contact n'est pas encore opérationnelle. L'objectif étan
 fonctionner sous peu afin que les personnes intéressées par mon profil puisse me contacter
 directement via mon site.
 
+Concernant la page Projets, les vidéos sont en cours de production.
+
 Egalement, l'insertion de ma GoogleMapReact est encore en cours de développement car je
 rencontre une difficulté avec l'API.
 
