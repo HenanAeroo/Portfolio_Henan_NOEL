@@ -61,7 +61,24 @@ function Home() {
               platform="github"
               link="https://github.com/HenanAeroo"
             />
-            <SocialBadge platform="cv" link={`public/CV_Henan_NOEL.pdf`} />
+            <a
+              href="/CV_Henan_NOEL.pdf"
+              download="CV_Henan_NOEL.pdf"
+              className="hidden"
+              id="cv-download-link"
+            >
+              Download CV
+            </a>
+            <button
+              type="button"
+              onClick={() => {
+                const cvLink = document.getElementById('cv-download-link');
+                if (cvLink) cvLink.click();
+              }}
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-white bg-purple-700 hover:bg-purple-800"
+            >
+              <span className="capitalize">Mon CV</span>
+            </button>
           </div>
         </div>
       </div>
