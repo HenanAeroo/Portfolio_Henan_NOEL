@@ -65,7 +65,7 @@ function Home() {
               platform="gitea"
               link="https://ytrack.learn.ynov.com/git/nhenan/"
             />
-            <SocialBadge platform="cv" link="../assets/img/CV_Henan_NOEL.pdf" />
+            <SocialBadge platform="cv" link={`${process.env.PUBLIC_URL}/assets/img/CV_Henan_NOEL.pdf`} />
           </div>
         </div>
       </div>
