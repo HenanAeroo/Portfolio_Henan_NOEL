@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
-import ReactPlayer from "react-player/lazy";
+// import ReactPlayer from "react-player/lazy";
 import "../index.css";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -18,12 +18,12 @@ const Projects = () => {
 
       <div className="challenge">
         <div className="card">
-          <ReactPlayer
+          {/* <ReactPlayer
             className="react-player"
             url="../../rickroll.mkv"
             controls={true}
             volume={0}
-          />
+          /> */}
           <p>
             Le{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
@@ -69,23 +69,23 @@ const Projects = () => {
             via XAMPP pour gérer l'affichage du site web, et un serveur PHP pour
             la partie back-end.
           </p>
-          <ReactPlayer
+          {/* <ReactPlayer
             className="react-player"
             url="../../rickroll.mkv"
             controls={true}
             volume={0}
-          />
+          /> */}
         </div>
       </div>
 
       <div className="salutchef">
         <div className="card">
-          <ReactPlayer
+          {/* <ReactPlayer
             className="react-player"
             url="../../rickroll.mkv"
             controls={true}
             volume={0}
-          />
+          /> */}
           <p>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               <b>Salut Chef !</b>
