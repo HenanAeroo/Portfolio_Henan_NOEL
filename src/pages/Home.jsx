@@ -6,7 +6,7 @@ import Footer from "../layouts/Footer";
 import VerticalBar from "../components/VerticalBar";
 import HorizontalBar from "../components/HorizontalBar";
 import SocialBadge from "../components/SocialBadge";
-import MapComponent from "../components/MapComponent";
+// import MapComponent from "../components/MapComponent";
 import ScrollToTop from "../components/ScrollToTop";
 // @ts-ignore
 import Pdp from "../assets/img/pdp.webp";
@@ -27,7 +27,7 @@ function Home() {
           <h2 className="text-4xl font-bold">Hénan NOËL</h2>
           <p>
             Étudiant en Bachelor 2 Informatique <br />
-            Recherche de stage développeur fullstack
+            Recherche d'alternance développeur fullstack
           </p>
         </div>
       </div>
