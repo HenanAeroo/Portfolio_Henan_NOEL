@@ -61,10 +61,6 @@ function Home() {
               platform="github"
               link="https://github.com/HenanAeroo"
             />
-            <SocialBadge
-              platform="gitea"
-              link="https://ytrack.learn.ynov.com/git/nhenan/"
-            />
             <SocialBadge platform="cv" link={`../../public/CV_Henan_NOEL.pdf`} />
           </div>
         </div>

@@ -4,7 +4,6 @@ const SocialBadge = ({ platform, link }) => {
   const colors = {
     linkedin: "bg-blue-700 hover:bg-blue-800",
     github: "bg-gray-800 hover:bg-gray-900",
-    gitea: "bg-green-700 hover:bg-green-800",
     cv: "bg-purple-700 hover:bg-purple-800",
   };
 
