@@ -61,7 +61,7 @@ function Home() {
               platform="github"
               link="https://github.com/HenanAeroo"
             />
-            <SocialBadge platform="cv" link={`../../public/CV_Henan_NOEL.pdf`} />
+            <SocialBadge platform="cv" link={`public/CV_Henan_NOEL.pdf`} />
           </div>
         </div>
       </div>
