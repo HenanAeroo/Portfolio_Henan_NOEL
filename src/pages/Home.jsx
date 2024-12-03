@@ -176,7 +176,7 @@ function Home() {
         </h2>
 
         <div className="map">
-          <MapComponent />
+          <iframe title="Ynov Campus Rennes" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2411.0893794561453!2d-1.684635824084292!3d48.10366705352205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edf8e59ca2915%3A0xb813f400fa51547a!2sYnov%20Campus%20Rennes%20-%20Ecole%20des%20m%C3%A9tiers%20du%20digital!5e1!3m2!1sfr!2sfr!4v1733216841325!5m2!1sfr!2sfr" width="400" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
           <p>
             <b>Rennes Ynov Campus :</b>
