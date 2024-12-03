@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
-// import ReactPlayer from "react-player/lazy";
+import ReactPlayer from "react-player/lazy";
 import "../index.css";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -80,12 +80,12 @@ const Projects = () => {
 
       <div className="salutchef">
         <div className="card">
-          {/* <ReactPlayer
+          {<ReactPlayer
             className="react-player"
-            url="../../rickroll.mkv"
+            url="./public/Site_SC.mp4"
             controls={true}
             volume={0}
-          /> */}
+          />}
           <p>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               <b>Salut Chef !</b>
